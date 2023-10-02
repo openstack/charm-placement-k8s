@@ -52,7 +52,7 @@ applications:
     scale: 1
     trust: true
     resources:
-      placement-api-image: ghcr.io/openstack-snaps/placement-api:2023.1
+      placement-api-image: ghcr.io/canonical/placement-api:2023.1
 
 relations:
 - - traefik:ingress
